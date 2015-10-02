@@ -13,17 +13,17 @@ public class CalculatorSpecial { // define a public class
         while (e == true) { // while it's true, doing the calculation
        
        
-        System.out.print("Enter an integer a"); //prompt user to imput a
+        System.out.println("Enter an integer a"); //prompt user to imput a
         
         int a = myScanner.nextInt();//call method nextDouble
         
         
-        System.out.print("Enter another inteter b"); //prompt user to imput b
+        System.out.println("Enter another inteter b"); //prompt user to imput b
         
         int b = myScanner.nextInt(); //call method nextDouble
         
         
-        System.out.print("Enter an operation(*,/,+,-)"); //prompt user to imput calculation method
+        System.out.println("Enter an operation(*,/,+,-)"); //prompt user to imput calculation method
         
         String sign = myScanner.next(); //call method nextChar
         

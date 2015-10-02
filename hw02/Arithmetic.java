@@ -1,3 +1,5 @@
+
+
 //define a class
 public class Arithmetic {
 //define a method 
