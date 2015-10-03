@@ -1,3 +1,6 @@
+//Zhiyi Chen
+//lab06
+//10/2
 
 import java.util.Scanner;
 
