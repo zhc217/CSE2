@@ -11,7 +11,7 @@ public static void main(String [] args) {
     Scanner myScanner = new Scanner (System.in);
     System.out.println("Enter n of values that are to be stored in an array"); //prompt user to enter n numbers to be stored
     
-    int n =  myScanner.nextInt(); // call method nextInt()
+    int n =  Scanner.nextInt(); // call method nextInt()
     
     int [] mylist = new int[n]; // create an array that has length of n
     

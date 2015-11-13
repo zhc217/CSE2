@@ -1,20 +1,22 @@
+
+import java.util.Scanner;
 public class test {
 
-public static void main(String args []) {
-
-int [] array1 = new int[10];
-int [] array2 = new int[5];
-
-for (int i=0; i<10; i++) {
-
-array1[i]=(int)(Math.random() *22);
-System.out.println(array1[i]);
-}
-for (int n=0;n<=4;n++) {
-array2[n]=array1[2*n];
-System.out.println(array2[n]);
-}
-
-
-}
+ public static void main(String[] args){
+    String[] beta = {"Men", "at", "some", "time", "are", "masters", "of", "their", "fates", "The", "fault", "dear Brutus", "is not in our stars", "but in ourselves", "that we are underlings"};
+      System.out.println("enter a number");
+      Scanner scan = new Scanner(System.in);
+     int num = scan.nextInt();
+     String output = "";
+ 
+     try{
+         output = output + beta[0] + " ";
+       output = output + beta[num] + " ";
+       output = output + beta[2 * num] + " ";
+     }
+     catch(Exception e){
+         output = output + "William Shakespeare.";
+     }
+     System.out.println(output);
+   }
 }
