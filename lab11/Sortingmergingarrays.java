@@ -33,8 +33,9 @@ public class Sortingmergingarrays { // define a class
     for (int k =20; k<30; k++) {
         array3[k] = array2[k-20];
     }
+    System.out.println("Start of array3");
     sort(array3);// sort array3
-    
+    System.out.println("End of array3");
     }
     
     
