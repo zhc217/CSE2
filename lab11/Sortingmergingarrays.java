@@ -54,7 +54,7 @@ public class Sortingmergingarrays { // define a class
          array[index]=sub;
          }
          for (int y = 0; y<array.length; y++ ) {
-             System.out.println(array[y]+ ""); // print out fixed array.
+             System.out.print(array[y]+ ""); // print out fixed array.
          }
     }
     }
