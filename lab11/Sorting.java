@@ -1,7 +1,4 @@
-//Zhiyi Chen
-//lab11
-//11/6
-public class Sortingmergingarrays { // define a class
+ public class Sorting { // define a class
     
     public static void main(String [] args) { // define a main method
     
